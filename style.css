@@ -6,6 +6,7 @@
 }
 body{
    font-family: "Azeret Mono", monospace;
+   background-color: antiquewhite;
 }
 .banner {
     max-width: 1140px;
@@ -67,29 +68,83 @@ margin-top: 30px;
 .develpment{
     margin-top: 120px;
     width: 1140px;
-    height: 1393px;
+    height: 1450px;
     border: 2px solid green;
     margin: 0 auto;
 }
-#second-layer {
+.second-layer {
    width: 946px;
-height: 1233px;
-border: 3px solid firebrick;
-margin: 80px 100px;
-
+    height: 1250px;
+    border: 3px solid rgb(76, 229, 62);
+    margin: 80px 100px;
 }
 .upper-part {
     margin-top: 0;
     width: 852px;
-height: 113px;
-border: 2px solid rgb(151, 218, 16);
-text-align: center;
+    height: 113px;
+    border: 2px solid rgb(221, 15, 15);
+    text-align: center;
 }
-.box{
+.second-layer .part1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 946px;
-height: 336px;
-border: 2px solid yellowgreen;
+    height: 350px;
+    padding: 50px ;
+    border: 5px solid rgb(36, 8, 138);
+}
+/* .inner_part{
+    margin: 10px 50px ;
+    border: 5px solid red;
+} */
+.paragraph{
+    border: 2px solid gray;
+    width: 50%;
+    height: 300px;
+    margin: 0px 5px;
+}
+.paragraph h2{
+    width: 420px;
+   height: 160px; 
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.paragraph p{
+    width: 490px;
+    height: 115px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn1{
+    position: static;
+    width: 100px;
+    height: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 67, 224);
+    opacity: 0.7;
+}
+.second{
+    margin-top: 30px;
+}
+.top-gap{
+    margin-top: 30px;
+}
+.another{
+    border: 3px solid cadetblue;
+    width: 550px ;
+    height: 250px;
+}
+.another h2{
+    width: 490px;
+   height: 140px; 
+  
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.another p{
+   width: 490px;
+   height: 80px;
 }
