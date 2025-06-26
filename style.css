@@ -6,7 +6,7 @@
 }
 body{
    font-family: "Azeret Mono", monospace;
-   background-color: antiquewhite;
+   
 }
 .banner {
     max-width: 1140px;
@@ -23,7 +23,8 @@ body{
     width: 1000px;
     height: 570px;
 }
-.container{ width: 90%;
+.container{ 
+    width: 90%;
     margin: 30px auto ;
      display: flex;
     flex-direction: column;
@@ -147,4 +148,71 @@ margin-top: 30px;
 .another p{
    width: 490px;
    height: 80px;
+}
+.video{
+    width: 1140px;
+    height: 793px;
+    border: 2px solid green;
+    margin: 0 auto;
+}
+.inspire p{
+   border: 2px solid rgb(229, 255, 0);
+   margin-top: 28px;
+}
+.jhankar{
+    width: 1140px;
+height: 640px;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+margin: 3px solid  rgb(238, 255, 0);
+}
+.inner-shell{
+    margin: 20px;
+}
+.harvard{
+    border-radius: 20px;
+}
+
+#target{
+    margin-top: 150px;
+}
+.target{
+    width: 1140px;
+    height: 460px;
+    border: 2px solid forestgreen;
+    margin-top: 150px ;
+}
+.new p{
+    border: 2px solid burlywood;
+    width: 90%;
+    margin-top: 25px;
+}
+.main{
+    width: 1140px;
+    height: 300px;
+    border: 2px solid rgb(235, 100, 237);
+    display: flex;
+    justify-content: space-evenly;
+}
+.mar{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 40px;
+ }
+.inner-part{
+    width: 364px;
+    height: 299px;
+    border: 2px solid rgb(82, 23, 199);
+    gap: 20;
+}
+#html{
+    background: rgba(255, 76, 30, 0.05);
+}
+#css{
+    background: rgba(0, 76, 232, 0.05);
+}
+#js{
+    background: rgba(255, 223, 0, 0.05);
 }
